@@ -5,8 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 class NewPic extends StatefulWidget {
-  const NewPic({Key key}) : super(key: key);
-
   @override
   _NewPicState createState() => _NewPicState();
 }
@@ -53,7 +51,7 @@ class _NewPicState extends State<NewPic> {
                 ),
                 DialogButton(
                   child: Text(
-                    "Cancel",
+                    "Continue",
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
                   onPressed: () => Navigator.pop(context),
